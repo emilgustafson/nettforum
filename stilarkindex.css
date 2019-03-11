@@ -1,0 +1,49 @@
+
+.header {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bilder/headerbakgrunn.PNG");
+	background-repeat: no-repeat;
+	border: 2px solid #79B751;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+}
+
+
+.topp {
+	background-color: #0000EE;
+	display: flex;
+	color: white;
+	padding-left: 1%;
+}
+
+.topp h6 {
+	margin:0;
+	font-size: 1.5em;
+}
+
+.info {
+	width: 100%;
+	margin-top: 2%;
+	border: 2px solid #79B751;
+}
+
+.info p {
+	padding-left: 1%;
+}
+
+.kategorier {
+	width: 100%;
+	margin-top: 2%;
+	border: 2px solid #79B751;
+}
+
