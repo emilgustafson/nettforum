@@ -1,4 +1,9 @@
 
+body {
+	background-image: linear-gradient(white, #00E1EE);
+	background-repeat: no-repeat;
+}
+
 .header {
 	width: 80%;
 	margin: auto;
@@ -31,19 +36,40 @@
 	font-size: 1.5em;
 }
 
-.info {
+.modul {
+	background-color: white;
 	width: 100%;
 	margin-top: 2%;
 	border: 2px solid #79B751;
 }
 
-.info p {
+.modul p {
 	padding-left: 1%;
 }
 
-.kategorier {
+.footer {
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid #79B751;
 	width: 100%;
-	margin-top: 2%;
-	border: 2px solid #79B751;
+	padding: 0;
+}
+
+.footer li {
+	background-color: white;
+	list-style-type: none;
+	display: inline;
+	border-right: 1px solid #79B751;
+	border-left: 1px solid #79B751;
+	border-bottom: 1px solid #79B751;
+	padding: 0.35em;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #0000EE;
+}
+.footer a:hover {
+	color: #68AC46;
 }
 
