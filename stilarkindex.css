@@ -1,6 +1,6 @@
 
 body {
-	background-image: linear-gradient(white, #00E1EE);
+	background-image: linear-gradient(#79B751, #00E1EE);
 	background-repeat: no-repeat;
 }
 
@@ -16,6 +16,13 @@ body {
 	border: 2px solid #79B751;
 }
 
+.hjem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
 .wrapper {
 	display: flex;
 	flex-wrap: wrap;
@@ -23,32 +30,52 @@ body {
 	margin: auto;
 }
 
+.kategoriklasse {
+	padding: 0.5em 0.5em 0.5em 0;
+	list-style-type: none;
+}
+
+.kategorioverskrift {
+	text-decoration: underline;
+	padding: 0;
+	margin: 0;
+}
 
 .topp {
+	padding-left: 1em;
+	width: 100%;
 	background-color: #0000EE;
-	display: flex;
 	color: white;
-	padding-left: 1%;
 }
 
 .topp h6 {
 	margin:0;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .modul {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: white;
 	width: 100%;
 	margin-top: 2%;
 	border: 2px solid #79B751;
 }
 
-.modul p {
-	padding-left: 1%;
+.modulinnhold {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-left: 1em;
+}
+
+.infotekst {
+	width: 100%;
 }
 
 .footer {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	border-top: 2px solid #79B751;
 	width: 100%;
@@ -68,6 +95,7 @@ body {
 .footer a {
 	text-decoration: none;
 	color: #0000EE;
+	font-size: 0.75em;
 }
 .footer a:hover {
 	color: #68AC46;
