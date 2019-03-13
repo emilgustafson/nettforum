@@ -75,14 +75,16 @@ body {
 
 .footer {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	flex-grow: 1;
 	justify-content: center;
 	border-top: 2px solid #79B751;
 	width: 100%;
 	padding: 0;
 }
 
-.footer li {
+.footerlink {
+	flex-grow: inherit;
 	background-color: white;
 	list-style-type: none;
 	display: inline;
@@ -95,9 +97,16 @@ body {
 .footer a {
 	text-decoration: none;
 	color: #0000EE;
-	font-size: 0.75em;
+	font-size: 75%;
 }
 .footer a:hover {
 	color: #68AC46;
+}
+
+.footerbuffer {
+	flex-grow: inherit;
+	list-style-type: none;
+	display: inline;
+	padding: 0.35em;
 }
 
