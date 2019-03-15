@@ -11,7 +11,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("bilder/headerbakgrunn.PNG");
+	background-image: url("../bilder/realistiskbakgrunn.PNG");
 	background-repeat: no-repeat;
 	border: 2px solid black;
 }
